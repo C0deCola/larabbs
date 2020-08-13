@@ -8,10 +8,10 @@ Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.
 4: // Bootstrap
 5: @import '~bootstrap/scss/bootstrap';
 6: 
-7: /* universal *\/
-8: 
-9: body {
-10:   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
+7: // Fontawesome
+8: @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+9: @import '~@fortawesome/fontawesome-free/scss/regular';
+10: @import '~@fortawesome/fontawesome-free/scss/solid';
 
 Backtrace:
 app.scss:5
@@ -52,4 +52,4 @@ app.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 5 of app.scss\A \A 1: // Variables\A 2: @import 'variables';\A 3: \A 4: // Bootstrap\A 5: @import '~bootstrap/scss/bootstrap';\A 6: \A 7: /* universal */\A 8: \A 9: body {\A 10:   font-family: Helvetica, \"Microsoft YaHei\", Arial, sans-serif;"; }
+  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 5 of app.scss\A \A 1: // Variables\A 2: @import 'variables';\A 3: \A 4: // Bootstrap\A 5: @import '~bootstrap/scss/bootstrap';\A 6: \A 7: // Fontawesome\A 8: @import '~@fortawesome/fontawesome-free/scss/fontawesome';\A 9: @import '~@fortawesome/fontawesome-free/scss/regular';\A 10: @import '~@fortawesome/fontawesome-free/scss/solid';"; }
