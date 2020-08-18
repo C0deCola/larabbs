@@ -32,4 +32,9 @@ class User extends Authenticatable implements MustVerifyEmailContract
     {
         return $this->id == $model->user_id;
     }
+
+    public function reply()
+    {
+        return $this->hasMany(Reply::class);
+    }
 }
